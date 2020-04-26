@@ -1,4 +1,5 @@
 // MDB Lightbox Init
-$(function () {
-$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
 });
