@@ -203,6 +203,6 @@ address {
     font-size: 50px;
 }
 
-#web-stat {
+.web-stat {
   display: none;
 }
